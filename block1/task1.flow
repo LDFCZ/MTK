@@ -1,0 +1,12 @@
+import runtime;
+import ds/array;
+import string;
+
+toStr(arr: [int]) -> [string]{
+    map(arr, \i -> i2s(i))
+}
+
+main () {
+  new_arr = toStr([1, 2, 3, 4]);
+  println(new_arr);
+}
